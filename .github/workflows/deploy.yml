@@ -31,5 +31,5 @@ jobs:
       - name: Deploy
         uses: actions/deploy-pages@v4.0.5
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           preview: true
